@@ -1,0 +1,10 @@
+package trial2;
+
+public class Folder {
+
+	void addNewFile(File f)
+	{
+				
+		return;
+	}
+}

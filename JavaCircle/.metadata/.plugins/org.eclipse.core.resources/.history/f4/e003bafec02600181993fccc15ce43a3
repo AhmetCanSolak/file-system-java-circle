@@ -1,0 +1,8 @@
+package trial2;
+
+public class File {
+	String name;
+	int sizeInBytes;
+	
+
+}

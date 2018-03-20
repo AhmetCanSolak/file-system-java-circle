@@ -1,0 +1,9 @@
+package trial2;
+
+import java.util.ArrayList;
+
+public class Folder {
+	String name;
+	ArrayList<FileSystemObject> FSObjectList;
+
+}

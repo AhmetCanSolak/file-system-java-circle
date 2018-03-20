@@ -1,0 +1,11 @@
+package trial2;
+
+import java.time.LocalDateTime;
+
+public class FileSystemObject {
+	String name;
+	int sizeInBytes;
+	LocalDateTime creationDate;
+	LocalDateTime lastModified;
+
+}

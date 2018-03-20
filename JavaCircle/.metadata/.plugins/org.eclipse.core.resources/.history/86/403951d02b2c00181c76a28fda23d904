@@ -1,0 +1,20 @@
+package trial2;
+
+import java.util.ArrayList;
+
+public class Folder extends FileSystemObject{
+	ArrayList<FileSystemObject> FSObjectList;
+
+	public Folder(String name) {
+		this.FSObjectList = new ArrayList<FileSystemObject>();
+	}
+	
+	public ArrayList<FileSystemObject> getFSObjectList() {
+		return FSObjectList;
+	}
+	
+	public void pushNewFSObject(FileSystemObject fs){
+		this.FSObjectList.add(fs);
+	}
+
+}

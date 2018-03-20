@@ -1,0 +1,16 @@
+package trial2;
+
+import java.time.LocalDateTime;
+
+public class File {
+	String name;
+	String format;
+	String visibleName;
+	int sizeInBytes;
+	LocalDateTime creationDate;
+	LocalDateTime lastModified;
+	// TODO Owners, users, authorization
+	byte[] data;
+	
+	
+}
