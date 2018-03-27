@@ -1,7 +1,0 @@
-package trial2;
-
-public class FileSystemObject {
-	String name;
-	int sizeInBytes;
-
-}

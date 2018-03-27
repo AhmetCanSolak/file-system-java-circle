@@ -1,7 +1,0 @@
-package trial2;
-
-public class Folder {
-	String name;
-	Folder[] fArray = new Folder()[25];
-
-}
