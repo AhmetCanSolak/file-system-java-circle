@@ -3,7 +3,7 @@
 import java.time.LocalDateTime;
 
 public class FileSystemObject {
-	protected String name;
+	private String name;
 	protected int sizeInBytes;
 	private LocalDateTime creationDate;
 	private LocalDateTime lastModified;
