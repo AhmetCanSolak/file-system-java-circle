@@ -6,11 +6,12 @@ public class File extends FileSystemObject{
 	byte[] data;
 	// TODO Owners, users, authorization
 	
-	public File(String name, 
+	public File(User u,
+				String name, 
 				String format, 
 				byte[] data) {
 		
-		super(name);
+		super(u, name);
 		this.format = format;
 		this.visibleName = name + "." + format;
 		this.sizeInBytes = data.length;

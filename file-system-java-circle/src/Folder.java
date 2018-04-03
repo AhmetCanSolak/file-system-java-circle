@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Folder extends FileSystemObject{
 	ArrayList<FileSystemObject> FSObjectList;
 
-	public Folder(String name) {
-		super(name);
+	public Folder(User u, String name) {
+		super(u, name);
 		this.FSObjectList = new ArrayList<FileSystemObject>();
 		this.sizeInBytes = 0;
 	}
