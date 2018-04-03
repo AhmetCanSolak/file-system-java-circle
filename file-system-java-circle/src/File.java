@@ -43,6 +43,13 @@ public class File extends FileSystemObject{
 	public byte[] getData() {
 		return data;
 	}
+
+
+
+	@Override
+	public int calcSizeIntBytes() {
+		return this.sizeInBytes;
+	}
 	
 	
 	

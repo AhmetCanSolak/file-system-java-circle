@@ -25,6 +25,4 @@ public abstract class FileSystemObject {
 	public LocalDateTime getLastModified() {
 		return lastModified;
 	}
-	
-	public abstract int calcSizeIntBytes();
 }

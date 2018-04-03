@@ -23,11 +23,7 @@ public class Folder extends FileSystemObject{
 		int size = 0;
 		
 		for (FileSystemObject fileSystemObject : FSObjectList) {
-			if (fileSystemObject instanceof Folder ) {
-				size += ((Folder) fileSystemObject).calcSizeIntBytes();
-			} else {
-				size += fileSystemObject.sizeInBytes;
-			}
+			size += fileSystemObject.calcSizeIntBytes();
 		}
 		
 		return size;

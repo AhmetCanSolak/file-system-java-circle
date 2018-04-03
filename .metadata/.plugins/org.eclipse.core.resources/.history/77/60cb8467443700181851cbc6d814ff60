@@ -8,7 +8,7 @@ public abstract class FileSystemObject {
 	private LocalDateTime creationDate;
 	private LocalDateTime lastModified;
 
-	public FileSystemObject(String name) {
+	public abstract FileSystemObject() {
 		this.name = name;
 		this.creationDate = LocalDateTime.now();
 		this.lastModified = this.creationDate;
@@ -25,6 +25,4 @@ public abstract class FileSystemObject {
 	public LocalDateTime getLastModified() {
 		return lastModified;
 	}
-	
-	public abstract int calcSizeIntBytes();
 }
