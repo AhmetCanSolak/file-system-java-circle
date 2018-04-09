@@ -29,19 +29,19 @@ public class File extends FileSystemObject{
 	}
 	
 	public String getVisibleName() {
-		return visibleName;
+		return this.visibleName;
 	}
 	
 	public String getFormat() {
-		return format;
+		return this.format;
 	}
 	
 	public int getSizeInBytes() {
-		return sizeInBytes;
+		return this.sizeInBytes;
 	}
 	
 	public byte[] getData() {
-		return data;
+		return this.data;
 	}
 
 

@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 
 public class Folder extends FileSystemObject{
-	ArrayList<FileSystemObject> FSObjectList;
+	private ArrayList<FileSystemObject> FSObjectList;
 
 	public Folder(String name) {
 		super(name);
@@ -12,7 +12,7 @@ public class Folder extends FileSystemObject{
 	}
 	
 	public ArrayList<FileSystemObject> getFSObjectList() {
-		return FSObjectList;
+		return this.FSObjectList;
 	}
 	
 	public void pushNewFSObject(FileSystemObject fs){

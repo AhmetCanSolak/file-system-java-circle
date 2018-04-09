@@ -15,15 +15,15 @@ public abstract class FileSystemObject {
 	}
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public LocalDateTime getCreationDate() {
-		return creationDate;
+		return this.creationDate;
 	}
 	
 	public LocalDateTime getLastModified() {
-		return lastModified;
+		return this.lastModified;
 	}
 	
 	public abstract int calcSizeIntBytes();
