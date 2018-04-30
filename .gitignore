@@ -25,3 +25,7 @@ hs_err_pid*
 .project
 .metadata
 .recommenders
+
+#intellij files
+.idea
+*.iml

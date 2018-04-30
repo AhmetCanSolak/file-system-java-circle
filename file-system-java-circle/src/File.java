@@ -1,9 +1,9 @@
 
 
 public class File extends FileSystemObject{
-	String format;
-	String visibleName;
-	byte[] data;
+	private String format;
+	private String visibleName;
+	private byte[] data;
 	// TODO Owners, users, authorization
 	
 	public File(String name, 
@@ -37,7 +37,7 @@ public class File extends FileSystemObject{
 	}
 	
 	public int getSizeInBytes() {
-		return sizeInBytes;
+		return calcSizeIntBytes();
 	}
 	
 	public byte[] getData() {
